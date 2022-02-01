@@ -5,13 +5,14 @@
   "repository": "git@github.com:raphael251/node-redis-pubsub.git",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/queue"
+    "start": "node dist/"
   },
   "dependencies": {
     "express": "^4.17.2",
     "redis": "^4.0.3"
   },
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/node": "^17.0.14"
   }
 }
