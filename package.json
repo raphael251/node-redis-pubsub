@@ -1,0 +1,17 @@
+{
+  "name": "node-redis-pubsub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:raphael251/node-redis-pubsub.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/queue"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "redis": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14"
+  }
+}
